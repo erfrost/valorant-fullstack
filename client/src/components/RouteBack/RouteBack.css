@@ -1,0 +1,15 @@
+.route-back {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    background-color: #0f182b;
+}
+.icon-btn {
+    border-radius: 50% !important;
+    background-color: transparent !important;
+}
+.icon-btn:hover {
+    background-color: #121d35 !important;
+}

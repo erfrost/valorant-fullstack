@@ -1,0 +1,71 @@
+.boxes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.box-1 {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.info-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.role-image {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.info-description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+.box-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abilities {
+    display: flex;
+    flex-direction: row;
+    background-color: #3561e5;
+    border-radius: 25px;
+    gap: 50px;
+}
+.ability-icon {
+    height: 150px;
+    padding: 15px 0 15px 0;
+}
+.ability-icon:first-child {
+    margin-left: 50px;
+}
+.ability-icon:last-child {
+    margin-right: 50px;
+}
+.tooltip {
+    border-radius: 25px !important;
+    padding: 15px !important;
+    background-color: #3561e5 !important;
+}
+.ability-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}

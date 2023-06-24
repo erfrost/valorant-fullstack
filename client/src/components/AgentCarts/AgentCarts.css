@@ -1,0 +1,41 @@
+.agentsPage {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #0f182b;
+}
+.agent-cart {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.agent-cart:hover {
+    background-color: #1a2847;
+}
+.agent-cart:hover .name {
+    font-size: 27px;
+}
+.portrait {
+    max-height: 95%;
+}
+.agent-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    height: 36px;
+    font-size: 24px;
+    color: white;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+}
+.description {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.5);
+}

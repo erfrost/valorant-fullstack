@@ -1,0 +1,36 @@
+.SkinPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: #0f182b;
+}
+.skin-title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 42px;
+}
+.levels {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.levels-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.level-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.lvl-number {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 22px;
+}

@@ -1,0 +1,21 @@
+.error {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 17px;
+}
+.chakra-btn {
+    background-color: rgb(17, 0, 31) !important;
+    color: white !important;
+    transition: all 0.3s !important;
+}
+.chakra-btn:hover {
+    background-color: rgb(59, 35, 78) !important;
+}

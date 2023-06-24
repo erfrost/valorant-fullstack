@@ -1,0 +1,31 @@
+.mapInfoPage-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapInfoPage-content {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.map-info-title {
+    font-size: 46px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+}
+.map-info-image {
+    width: 75%;
+    height: 75%;
+}
+.coordinates {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 36px;
+    position: relative;
+    bottom: 45%;
+    left: 40%;
+    transform: rotate(0.25turn);
+    letter-spacing: 6px;
+}

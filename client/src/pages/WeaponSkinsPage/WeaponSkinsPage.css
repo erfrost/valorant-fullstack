@@ -1,0 +1,30 @@
+.weaponSkinsPage {
+    width: 100%;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    background-color: #0f182b;
+    padding: 0 200px 0 200px;
+}
+.skin-item {
+    height: 16rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80% auto;
+    border: 1px solid  #3561e5;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+.skin-item:hover .skinName {
+    opacity: 1;
+}
+.skinName {
+    opacity: 0;
+    transition: all 0.3s;
+}

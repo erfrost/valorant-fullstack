@@ -1,0 +1,7 @@
+.login-btn {
+    min-height: 100%;
+    border-radius: 15px !important;
+    font-size: 18px !important;
+    color: rgb(105, 105, 105);
+    padding: 1px 25px !important;
+}

@@ -1,0 +1,25 @@
+.weaponsPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #0f182b;
+    padding: 50px;
+    gap: 50px;
+}
+.weapon-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+}
+.weapon-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.weapon-image {
+    width: 50%;
+    height: auto;
+}

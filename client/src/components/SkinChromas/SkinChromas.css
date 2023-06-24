@@ -1,0 +1,51 @@
+ .skin-chromas {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.chomas-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.chroma-image {
+    width: 325px;
+}
+.chroma-swatch {
+    width: 30px;
+    height: 30px;
+}
+.tooltip-videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.video {
+    width: auto;
+    max-width: 530px;
+    height: 300px;
+    border-radius: 20px;
+}
+.popover-content {
+    width: auto !important;
+    background-color: #3561e5 !important;
+    border: none !important;
+    border-radius: 15px !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+.chakra-popover__body {
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+.chakra-popover__content {
+    box-shadow: none !important;
+}
+.video-error {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+}

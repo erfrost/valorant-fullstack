@@ -1,0 +1,50 @@
+.auth-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+.auth-box {
+    width: 425px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.auth-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+.text-field {
+    color: rgba(255, 255, 255, 0.65) !important;
+    border-color: rgba(255, 255, 255, 0.65) !important;
+}
+.text-field-error {
+    border-width: 2px !important;
+    border-color: rgba(255, 0, 0, 0.65) !important
+}
+.text-field-error:focus-visible {
+    box-shadow: none !important;
+}
+.login-checkbox {
+    align-self: flex-start;
+}
+.login-checkbox span {
+    font-size: 13px !important;
+    transition: all 0.3s !important;
+}
+.auth-btn {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: rgba(255, 255, 255, 0.65) !important;
+    font-size: 18px !important;
+}
+.auth-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
